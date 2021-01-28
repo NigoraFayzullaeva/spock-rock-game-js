@@ -13,14 +13,14 @@ body {
   justify-content: center;
   align-items: center;
 }
-.game-container{
+
+.game-container {
   width: 530px;
   height: 600px;
   background: white;
-  border-radius: 5px;
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
 }
-
 
 .header {
   background: dodgerblue;
@@ -38,7 +38,7 @@ h1 {
 }
 
 .player-container {
-  margin: 50px;
+  margin: 48px;
 }
 
 h2 {
@@ -48,22 +48,25 @@ h2 {
 .far {
   font-size: 50px;
   margin-right: 40px;
-  User-select: none;
 }
+
 #player .far,
-#player .choice{
+#player .choice {
   color: dodgerblue;
   cursor: pointer;
 }
+
 #computer .far,
-#computer .choice{
+#computer .choice {
   color: rgb(235, 43, 52);
 }
+
 #player .far:last-of-type,
-#computer .far:last-of-type{
+#computer .far:last-of-type {
   margin-right: 0;
 }
-.selected{
+
+.selected {
   color: black !important;
 }
 
@@ -88,7 +91,7 @@ h2 {
 /* Media Query: Large Smartphone (Vertical) */
 @media screen and (max-width: 600px) {
   .game-container {
-
+    width: 95%;
     height: 580px;
   }
 
@@ -114,7 +117,6 @@ h2 {
 @media screen and (max-width: 376px) {
   .game-container {
     height: 550px;
-    width: 95%;
   }
 
   h1 {
